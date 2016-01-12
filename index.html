@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="damonsSite">
 <head>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 	<script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
@@ -28,6 +29,9 @@
 				</a>
 				Until I entered Coding House in October of last year, I was only self taught basic Javascript, CSS, and HTML...
 		</blockquote>
+		<script>
+			$(window).scrollTop(0);
+		</script>
 	</div>
 	<br>
 	<div class="info" ng-if="!$state.includes('experience')" ui-sref="experience">
@@ -36,6 +40,9 @@
 		<blockquote>
 			At Coding House, I spent all day on the computer coding. Days ususally go from 9 am to 1 am. I was taught how to code and...
 		</blockquote>
+		<script>
+			$(window).scrollTop(0);
+		</script>
 	</div>
 	<div class="info" ng-if="!$state.includes('projectsimproudof')" ui-sref="projectsimproudof">
 		<h3>Projects I'm Proud of </h3>
@@ -44,12 +51,10 @@
 				A simple weather applictaion using the <a href="http://www.wunderground.com/">Wunderground Api</a>
 				, which give you the current weather and a forcast for the next three days...
 			</blockquote>
+			<script>
+		    $(window).scrollTop(0);
+			</script>
 	</div>
-
-
-
-
-
 	<div id="iconHolder">
 	<a href="https://github.com/Damonkala">	<i class="fa fa-github-alt fa-5x"></i></a>
 	<a href="https://www.linkedin.com/profile/view?id=AAMAABp0VQwBj5I0wuG-BNJ4uIKexRlEG1eQGeQ&trk=hp-identity-photo">	<i class="fa fa-linkedin-square fa-5x"></i></a>
