@@ -1,0 +1,43 @@
+*{
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#iconHolder{
+	display: inline-block;
+	vertical-align: bottom;
+	text-align: center;
+	width: 100%;
+}
+.info{
+	border: 1px solid black;
+}
+.info:hover{
+	box-shadow: 10px 10px 5px 5px #888888;
+	border: 2px solid black;
+	color: #404040;
+	text-shadow: 0 0 1px #fdff00;
+}
+#angular{
+	height: 10%;
+	width: 10%;
+}
+#meanStack{
+	text-align: center;
+}
+body{
+	background-image: url('squairy_light.png');
+}
+#me{
+	text-align: center;
+}
+#flavorText{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.logo{
+	height: 20%;
+	width: 20%;
+}
+#page{
+	border: 1px solid black;
+}
