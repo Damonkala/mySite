@@ -1,10 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app="damonsSite">
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<script src="http://angular-ui.github.io/ui-router/release/angular-ui-router.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
 	<meta charset="UTF-8">
 	<title>My Site</title>
+	<!-- <base href="/"> -->
+	<div id="me">
+		<h1>Damon Kalaboukis</h1>
+		<h2>MEAN stack developer</h2>
+	</div>
 </head>
 <body>
-	<h1>Damon Kalaboukis</h1>
+	<div id="flavorText">
+	</div>
+	<div ui-view id="page"></div>
+	<br>
+	<div class="info" ng-if="!$state.includes('about')" ui-sref="about">
+		<h3>About</h3>
+		<blockquote>
+				Hi, my name is Damon Kalaboukis. I'm currently enrolled at
+				<a href="http://codinghouse.co/#!home">
+					Coding House.
+				</a>
+				Until I entered Coding House in October of last year, I was only self taught basic Javascript, CSS, and HTML...
+		</blockquote>
+	</div>
+	<br>
+	<div class="info" ng-if="!$state.includes('experience')" ui-sref="experience">
+		<h3>Experience</h3>
+			<img src="codinghouse-logo.png" class="logo">
+		<blockquote>
+			At Coding House, I spent all day on the computer coding. Days ususally go from 9 am to 1 am. I was taught how to code and...
+		</blockquote>
+	</div>
+	<div class="info" ng-if="!$state.includes('projectsimproudof')" ui-sref="projectsimproudof">
+		<h3>Projects I'm Proud of </h3>
+			<img src="Weatherly.png" class="logo">
+			<blockquote>
+				A simple weather applictaion using the <a href="http://www.wunderground.com/">Wunderground Api</a>
+				, which give you the current weather and a forcast for the next three days...
+			</blockquote>
+	</div>
+
+
+
+
+
+	<div id="iconHolder">
+	<a href="https://github.com/Damonkala">	<i class="fa fa-github-alt fa-5x"></i></a>
+	<a href="https://www.linkedin.com/profile/view?id=AAMAABp0VQwBj5I0wuG-BNJ4uIKexRlEG1eQGeQ&trk=hp-identity-photo">	<i class="fa fa-linkedin-square fa-5x"></i></a>
+	<a href="https://twitter.com/damonkala">	<i class="fa fa-twitter-square fa-5x" fa-5x"></i></a>
+	<a href="https://neverendinglearningjourney.wordpress.com/">	<i class="fa fa-wordpress fa-5x" fa-5x"></i>
+	</a>
+	<div>
+		<h1>Contact:</h1>
+		<p>You can contact me at damonkalaboukis@yahoo.com</p>
+		<p>or at damonkala@yahoo.com (redirect)</p>
+	</div>
+</div>
+<script src="public/module.js"></script>
 </body>
 </html>
