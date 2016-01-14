@@ -31,7 +31,7 @@
 body{
 	background-image: url('images/squairy_light.png');
 }
-#me{
+#topText{
 	text-align: center;
 }
 #flavorText{
@@ -66,5 +66,10 @@ blockquote{
 	text-align: center;
 	border: 1px solid black;
 	width: 25%;
+	margin: auto;
+}
+#avatar{
+	width: 30%;
+	height: 30%;
 	margin: auto;
 }

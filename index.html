@@ -8,17 +8,17 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="style.css">
 	<meta charset="UTF-8">
-	<title>My Site</title>
+	<title>DamonKala</title>
 	<!-- <base href="/"> -->
-	<div id="me">
+	<div id="topText">
 		<h1>Damon Kalaboukis</h1>
 		<h2>MEAN stack developer</h2>
 	</div>
 	<nav class="navbar navbar-default" id="topBar">
-	  <div class="container-fluid">
-	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <ul class="nav navbar-nav">
-	        <li>
+		<div class="container-fluid">
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li>
 						<a ui-sref="about">About</a>
 					</li>
 					<li>
@@ -27,17 +27,15 @@
 					<li>
 						<a ui-sref="projectsimproudof">Projects</a>
 					</li>
-	      </ul>
-	    </div>
-	  </div>
+				</ul>
+			</div>
+		</div>
 	</nav>
-
 </head>
 <body>
 	<div id="flavorText">
 	</div>
 	<div ui-view id="page"></div>
-	<br>
 	<div class="info" ng-if="!$state.includes('about')" ui-sref="about">
 		<h3>About</h3>
 		<img src="images/me.jpeg" class="logo">
