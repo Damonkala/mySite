@@ -10,6 +10,7 @@
 .info{
 	border: 1px solid black;
 	width: 50%;
+	height: auto;
 	margin: auto;
 	background-image: url('http://elemisdesign.com/img/4/1.jpg')
 }
@@ -23,11 +24,12 @@
 	height: 10%;
 	width: 10%;
 }
-#meanStack{
-	text-align: center;
-}
+/*#meanStack{
+	width: 20%;
+	border: 1px solid black;
+}*/
 body{
-	background-image: url('squairy_light.png');
+	background-image: url('images/squairy_light.png');
 }
 #me{
 	text-align: center;
@@ -38,13 +40,13 @@ body{
 	font-size: 20px;
 }
 .logo{
-	height: 25%;
-	width: 25%;
+	max-height: 200px;
+	max-width: 200px;
 	float: left;
 	display: inline;
 }
 #page{
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	height: 100%;
 }
 blockquote{
@@ -53,7 +55,6 @@ blockquote{
 .project{
 	border: 1px solid black;
 	width: 80%;
-	/*margin-left: 35px;*/
 	margin: auto;
 	background-image: url('http://elemisdesign.com/img/4/1.jpg');
 }
