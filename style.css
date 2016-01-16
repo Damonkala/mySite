@@ -1,0 +1,77 @@
+*{
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+#iconHolder{
+	display: inline-block;
+	vertical-align: bottom;
+	text-align: center;
+	width: 100%;
+}
+.info{
+	border: 1px solid black;
+	width: 50%;
+	height: auto;
+	margin: auto;
+	background-image: url('http://elemisdesign.com/img/4/1.jpg')
+}
+.info:hover{
+	box-shadow: 10px 10px 5px 5px #888888;
+	border: 2px solid black;
+	color: #404040;
+	text-shadow: 0 0 1px #fdff00;
+}
+#angular{
+	height: 10%;
+	width: 10%;
+}
+/*#meanStack{
+	width: 20%;
+	border: 1px solid black;
+}*/
+body{
+	background-image: url('images/squairy_light.png');
+}
+#topText{
+	text-align: center;
+}
+#flavorText{
+	width: 50%;
+	margin: 0 auto;
+	font-size: 20px;
+}
+.logo{
+	max-height: 200px;
+	max-width: 200px;
+	float: left;
+	display: inline;
+}
+#page{
+	/*border: 1px solid black;*/
+	height: 100%;
+}
+blockquote{
+	border: 0;
+}
+.project{
+	border: 1px solid black;
+	width: 80%;
+	margin: auto;
+	background-image: url('http://elemisdesign.com/img/4/1.jpg');
+}
+.project:hover {
+	border: 2px solid black;
+	box-shadow: 10px 10px 5px 5px #888888;
+}
+#topBar{
+	text-align: center;
+	border: 1px solid black;
+	width: 25%;
+	margin: auto;
+}
+#avatar{
+	width: 30%;
+	height: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
