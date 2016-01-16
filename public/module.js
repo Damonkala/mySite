@@ -4,7 +4,7 @@ var app = angular.module('damonsSite', ['ui.router'])
 
 
 .config(function($stateProvider, $urlRouterProvider, $locationProvider){
-	// $locationProvider.html5Mode(true);
+	$locationProvider.html5Mode(true);
 	$urlRouterProvider.otherwise('/');
 	$stateProvider
 	.state('about', {url: '/about', templateUrl: 'public/views/about.html'})

@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="style.css">
 	<meta charset="UTF-8">
 	<title>DamonKala</title>
-	<!-- <base href="/"> -->
+	<base href="/">
 	<div id="topText">
 		<h1>Damon Kalaboukis</h1>
 		<h2>MEAN stack developer</h2>
@@ -32,9 +32,8 @@
 		</div>
 	</nav>
 </head>
+<br>
 <body>
-	<div id="flavorText">
-	</div>
 	<div ui-view id="page"></div>
 	<div class="info" ng-if="!$state.includes('about')" ui-sref="about">
 		<h3>About</h3>
@@ -50,6 +49,7 @@
 		$(window).scrollTop(0);
 		</script>
 	</div>
+	<br>
 	<div class="info" ng-if="!$state.includes('projectsimproudof')" ui-sref="projectsimproudof">
 		<h3>Projects</h3>
 		<img src="images/AngularBookmark.png" class="logo">
@@ -60,9 +60,9 @@
 		$(window).scrollTop(0);
 		</script>
 		<br>
-	<br>
-	<br>
+		<br>
 	</div>
+	<br>
 	<div class="info" ng-if="!$state.includes('experience')" ui-sref="experience">
 		<h3>Experience</h3>
 		<img src="images/codinghouse-logo.png" class="logo">
