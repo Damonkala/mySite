@@ -1,7 +1,7 @@
 $(document).ready(function() {
 		console.log("Doc Ready")
     $('#fullpage').fullpage({
-			anchors: ['Home', 'About', 'Skills', 'Projects', 'Experience'],
+			anchors: ['About', 'Skills', 'Projects', 'Experience'],
 		});
 		$('.subject').click(goTo);
 });
