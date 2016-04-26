@@ -8,21 +8,22 @@
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/foundation-sites/dist/foundation.js"></script>
 </head>
 <body>
   <div class="navicom">
     <div class="nameTitle">
-      <h3>Damon Kalaboukis</h3>
-      <h4>MEAN stack developer</h4>
-    </div>
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="menu">
-          <li><a class="subject">About</a></li>
-          <li><a class="subject">Skills</a></li>
-          <li><a class="subject">Projects</a></li>
-          <li><a class="subject">Experience</a></li>
-        </ul>
+      <div class="top-bar">
+        <div class="top-bar-left">
+          <ul class="menu">
+            <li><a>Damon Kalaboukis</a></li>
+            <li><a class="subject">About</a></li>
+            <li><a class="subject">Skills</a></li>
+            <li><a class="subject">Projects</a></li>
+            <li><a class="subject">Experience</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -33,7 +34,6 @@
       </div>
       <div class="row">
         <div class="small-6 large columns">
-          <!-- <img class="avatar" src="http://placehold.it/350x550"> -->
           <img class="avatar" src="images/me.jpg" alt="">
           <div class="iconHolder">
             <a href="https://github.com/Damonkala">	<i class="fa fa-github-alt fa-5x"></i></a>
@@ -49,9 +49,9 @@
           </div>
           <div class="small-6 large columns">
             <blockquote class="titleText">
-              Hey, my name is Damon, I'm a MEAN stack developer.
+              Hi, my name is Damon. I am a MEAN stack developer.
               I like to code so I can create things that can help people.
-              Knowing that one day, the text that I'm typing on the screen will impact someone's life, inspires me and makes me want to learn more, code more, and teach those who want to learn.
+              Knowing that one day, what I write on the screen will impact someone's life inspires me, and makes me want to learn more, code more, and help those who want to learn.
             </blockquote>
           </div>
         </div>
@@ -64,51 +64,51 @@
           <div class="row">
             <div class="small-4 columns">
               <a href="https://www.javascript.com/">
-                <img src="http://blog.sklambert.com/wp-content/uploads/2013/05/JS6_Logo.png">
+                <img src="./images/JavaScript.png" class="skill">
               </a>
             </div>
             <div class="small-4 columns">
               <a href="https://en.wikipedia.org/wiki/HTML">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/200px-HTML5_logo_and_wordmark.svg.png" alt="">
+                <img src="./images/HTML.png" alt="" class="skill">
               </a>
             </div>
             <div class="small-4 columns">
               <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">
-                <img src="http://assets.toptal.io/uploads/blog/category/logo/364/CSS.png" alt="">
+                <img src="./images/CSS.png" alt="" class="skill">
               </a>
             </div>
           </div>
           <div class="row">
             <div class="small-4 columns">
               <a href="https://www.mongodb.org/">
-                <img src="http://www.askyb.com/wp-content/uploads/2013/09/mongo-200x200.png" alt="">
+                <img src="./images/MongoDB.png" alt="" class="skill">
               </a>
             </div>
             <div class="small-4 columns">
               <a href="http://expressjs.com/">
-                <img src="http://wwwhere.io/img/thumbs/express.jpg" alt="">
+                <img src="./images/ExpressJS.jpg" alt="" class="skill">
               </a>
             </div>
             <div class="small-4 columns">
               <a href="https://angularjs.org/">
-                <img src="https://avatars0.githubusercontent.com/u/139426?v=3&s=400" alt="">
+                <img src="./images/Angular.png" alt="" class="skill">
               </a>
             </div>
           </div>
           <div class="row">
             <div class="small-4 columns">
               <a href="https://nodejs.org/en/">
-                <img src="http://assets.toptal.io/uploads/blog/category/logo/45/nodejs.png" alt="">
+                <img src="./images/NodeJS.png" alt="" class="skill">
               </a>
             </div>
             <div class="small-4 columns">
               <a href="http://jquery.com/">
-                <img src="http://assets.toptal.io/uploads/blog/category/logo/40/jquery.png" alt="">
+                <img src="./images/jQuery.png" alt="" class="skill">
               </a>
             </div>
             <div class="small-4 columns">
               <a href="https://www.firebase.co">
-                <img src="https://avatars0.githubusercontent.com/u/1335026?v=3&s=200" alt="">
+                <img src="./images/Firebase.png" alt="" class="skill">
               </a>
             </div>
           </div>
@@ -117,82 +117,210 @@
       <div class="section">
         <h1 class="nameTitle">Projects</h1>
         <div class="row">
-          <div class="project">
-            <h3>Angular Bookmarks</h3>
-            <div class="small-4 columns">
-              <img class="projectPic" src="images/Angular-Bookmarks.png">
-              <a href="https://github.com/ray-kim-12/bookmarkManagementTool/tree/angularlike">	<i class="fa fa-github-alt fa-3x"></i></a>
-              <a href="https://angular-bookmarks.surge.sh/#/bookmarks">
-                <i class="fa fa-external-link fa-3x"></i>
-              </div>
-              <div class="small-6 columns">
-                <blockquote class="projectText">
-                  Angular based bookmarking tool. Users can create bookmarks, tag them and then filter by names or tags.
-                </blockquote>
-              </div>
+          <div class="small-6 small-centered columns">
+            <p><a data-toggle="VGDM">
+              <img src="images/vgdm3.png" alt="" class="projectPic" >
+            </a></p>
+            <div class="reveal" id="VGDM" data-reveal >
+              <h1>Video Game Death Match</h1>
+              <img src="images/VGDM.png" alt="">
+              <blockquote>
+                In Video Game Death Match, users can pick two games and compare them with scores from up to 4 different game review websites.
+                Users can then publish the pairs of games to be reviewed by other users.
+              </blockquote>
+              <a href="http://www.vgdm.co/list">
+                <i class="fa fa-external-link fa-5x"></i>
+              </a>
+              <a href="https://github.com/Damonkala/GameCompare">
+                <i class="fa fa-github fa-5x"></i>
+              </a>
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-          </a>
+          </div>
         </div>
         <div class="row">
-          <div class="project">
-            <h3>Weatherly</h3>
-            <div class="small-4 columns">
-              <img class="projectPic" src="images/Weatherly.png">
-              <a href="https://github.com/Damonkala/Weatherly">	<i class="fa fa-github-alt fa-3x"></i></a>
-              <a href="http://damonkala.github.io/Weatherly/">
-                <i class="fa fa-external-link fa-3x"></i>
-              </div>
-              <div class="small-6 columns">
-                <blockquote class="projectText">
-                  Simple weather program that tells you the current conditions, and the forecast for the next 3 days! Made with Jquery and the Wunderground API.
-                </blockquote>
-              </div>
+          <div class="small-6 small-centered columns">
+            <p><a data-toggle="DD">
+              <img src="images/DD2.png" alt="" style="width: 500px">
+            </a></p>
+            <div class="reveal" id="DD" data-reveal >
+              <h1>Dirty Deals</h1>
+              <img src="images/DDGameplay.png" alt="">
+              <blockquote>
+                Dirty Deals is a <a href="https://en.wikipedia.org/wiki/Cards_Against_Humanity">Cards Against Humanity</a> clone,
+                in which players are given a prompt, as well as 10 cards to complete or answer the prompt.
+                The main difference between CAH and Dirty Deals, is that players vote
+                for the best scenario, while in the original game, one player decides which one is best.
+              </blockquote>
+              <a href="https://dirtydeals.herokuapp.com/">
+                <i class="fa fa-external-link fa-5x"></i>
+              </a>
+              <a href="https://github.com/rachelrobynslater/CAH">
+                <i class="fa fa-github fa-5x"></i>
+              </a>
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-          </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="small-6 small-centered columns">
+            <p><a data-toggle="AB">
+              <img src="images/AB.png" alt="" class="projectPic">
+            </a></p>
+            <div class="reveal" id="AB" data-reveal >
+              <h1>Angular Bookmarks</h1>
+              <img src="./images/Angular-Bookmarks.png" alt="" >
+              <blockquote>
+                An Angular based bookmarking tool that allows users to create bookmarks and tag them by catagory.
+                Users can then search by bookmark name or by tag.
+              </blockquote>
+              <br>
+              <a href="https://angular-bookmarks.surge.sh">
+                <i class="fa fa-external-link fa-5x"></i>
+              </a>
+              <a href="https://github.com/Damonkala/bookmarkfrontend">
+                Frontend:
+                <i class="fa fa-github fa-5x"></i>
+              </a>
+              <a href="https://github.com/ray-kim-12/bookmarkManagementTool">
+                Backend:
+                <i class="fa fa-github fa-5x"></i>
+              </a>
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="section">
         <div class="nameTitle">
           <h1>Experience</h1>
           <div class="row">
-            <div class="project">
-              <h3>Office Max</h3>
-              <div class="small-4 columns">
-                <img class="projectPic" src="http://seeklogo.com/images/O/Officemax-logo-0636B0A538-seeklogo.com.gif">
-              </div>
-              <div class="small-6 columns">
-                <blockquote class="projectText">
-                  I worked as a sales associate, where I would work the register, stock the sheleves and help customers find what their looking for.
-                </blockquote>
-              </div>
+            <p><a data-toggle="CH" class="magicModal">
+              <img src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/74/s300/coding-house-logo.png" alt="" class="projectPic tilt">
+            </a></p>
+            <div class="reveal" id="CH" data-reveal >
+              <h1><a href="http://codinghouse.co/">Coding House</a></h1>
+              <blockquote class="projectText">
+                <h2>
+                  Fremont, California October 2015 - February 2016
+                </h2>
+                A live-in coding bootcamp that focuses on teaching MEAN stack development. There I was taught:
+                <ul class="disc">
+                  <li>
+                    How to use JavaScript, CSS, and HTML to build fully functional projects.
+                  </li>
+                  <li>
+                    The bulk of our lessons were about how to use NodeJs, and node’s other frameworks like Express. For storing data, used the NoSQL database MongoDB, and by extension the Node version, Mongoose, as well as the SQL Database Sqlite. We also took advantage of Google’s Firebase to create a real time database for applications such as chatrooms.
+                  </li>
+                  <li>
+                    Used Angular to bring together frontend and backend to create a full MEAN stack application. Other frameworks that we used were React and Ember.
+                  </li>
+                </ul>
+                <h2>
+                  Mentored students following my cohort
+                </h2>
+                <ul class="disc">
+                  <li>
+                    Helped them understand the core concepts taught a Coding House.
+                  </li>
+                  <li>
+                    Graded assignments and gave critical feedback.
+                  </li>
+                </ul>
+                Taught how to use APIs to build useful, real world applications.
+                <ul class="disc">
+                  <li>
+                    Stormpath: Created secure authentication system with very little code, and with other APIs like Facebook and Twitter, we were able to create Oauth applications that would allow users to log in to our applications using another website’s authorization system.
+                  </li>
+                  <li>
+                    Wunderground: Built a weather application, in which we were able to decide what kind of information we wanted to present to the user.
+                  </li>
+                  <li>
+                    Google Maps’ API: Made a map based application, where we could decide what information we wanted to focus on in order to provide a unique experience for the user.
+                  </li>
+                </ul>
+                Participated in ATT’s Internet of things Hackathon, Palo Alto, November 2015.
+                <ul class="disc">
+                  <li>
+                    Sponsors included: Microsoft, IBM, and Plantronics
+                  </li>
+                  <li>
+                    Project: A device that is put on your door, and takes a picture of somebody when they knock, the
+                    picture is then sent to you, and is put through facial recognition via Microsoft Azure, letting you know if the person at the door is somebody you know.
+                  </li>
+                  <li>
+                    Technologies used: The hardware was a Tessle, and we used Microsoft Azure for its facial recognition program.
+                  </li>
+                  <li>
+                    Results: Our team had a mostly working prototype, and we were awarded the prize from Microsoft
+                    for using Azure technology.
+                  </li>
+                </ul>
+                Participated in the Launch Hackathon, San Francisco, February 2016.
+                <ul class="disc">
+                  <li>
+                    Sponsors included: Uber, Lyft, Dotclub, Honda, Esri, and Twitter.
+                  </li>
+                  <li>
+                    Project: Users can sign up and pick a location on a map and one or more interests. Users are then
+                    paired up by similar interest and location, and are put into an anonymous chat. Users then can decide if they want to meet up in person, and if so, they are directed to a nearby public location where they can meet up that’s equidistant to both users.
+                  </li>
+                  <li>
+                    Technologies used: Used Esri’s mapping API.
+                  </li>
+                  <li>
+                    Results: Work in progress.
+                  </li>
+                </ul>
+              </blockquote>
+              <br>
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-          </a>
-        </div>
+          </div>
+          <br>
           <div class="row">
-            <div class="project">
-              <h3>Coding House</h3>
-              <div class="small-4 columns">
-                <img class="projectPic" src="https://course_report_production.s3.amazonaws.com/rich/rich_files/rich_files/74/s300/coding-house-logo.png">
-              </div>
-              <div class="small-6 columns">
-                <blockquote class="projectText">
-                  Before I came to Coding House, I knew just the basics of JavaScript, CSS and HTML, but after Coding House, I learned how to apply my skills and create great applications using frameworks.
-                </blockquote>
-              </div>
+            <p><a data-toggle="OM" class="magicModal">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/OfficeMaxLogo.svg/1280px-OfficeMaxLogo.svg.png" alt="" class="projectPic tilt">
+            </a></p>
+            <div class="reveal" id="OM" data-reveal >
+              <h1><a href="http://www.officedepot.com/">Office Max</a></h1>
+              <blockquote class="projectText">
+                <h2>
+                  Sales Associate
+                </h2>
+                <ul class="disc">
+                  <li>Trained to communicate with customers and offer them helpful support.</li>
+                  <li>Sought out and engaged customers in a friendly and professional manner and provided impartial, knowledgeable advice about all OfficeMax product offerings.</li>
+                  <li>Provided outstanding customer service by effectively engaging customers, identifying their needs, and offering the best solution to successfully close a sale.</li>
+                  <li>Performed register sales transactions quickly and accurately in accordance with established cash control procedures and customer service guidelines.</li>
+                  <li>Ensured that the store is clean and organized and all pricing signage is in order. Assisted in cleaning and maintenance of the store.</li>
+                  <li> Immediately responded and resolved any potential safety hazards, and report to Manager on Duty.</li>
+                  <li>Assisted in the store’s data integrity process: identifying low stock levels, inventory discrepancies and report them to management to ensure an “in-stock” store.</li>
+                  <li>Ensured returned merchandise was restocked to the correct location and that all damaged or defective merchandise is labeled and placed in the appropriate area.</li>
+                </ul>
+              </blockquote>
+              <br>
+              <button class="close-button" data-close aria-label="Close reveal" type="button">
+                <span aria-hidden="true">&times;</span>
+              </button>
             </div>
-          </a>
+          </div>
         </div>
       </div>
     </div>
   </div>
-</div>
-</div>
 
-<div ui-view></div>
-<script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/what-input/what-input.js"></script>
-<script src="bower_components/foundation-sites/dist/foundation.js"></script>
-<script src="bower_components/fullpage.js/jquery.fullPage.min.js"></script>
-<script src="public/main.js"></script>
+  <div ui-view></div>
+  <script src="bower_components/what-input/what-input.js"></script>
+  <script src="bower_components/fullpage.js/jquery.fullPage.min.js"></script>
+  <script src="public/main.js"></script>
 </body>
 </html>
