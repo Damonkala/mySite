@@ -432,13 +432,14 @@ $progress-radius: $global-radius;
 // ----------
 
 $reveal-background: $white;
-$reveal-width: 600px;
+$reveal-width: 1000px;
 $reveal-max-width: $global-width;
 $reveal-offset: rem-calc(100);
 $reveal-padding: $global-padding;
 $reveal-border: 1px solid $medium-gray;
 $reveal-radius: $global-radius;
-$reveal-zindex: 1005;
+$reveal-zindex: -1;
+// $reveal-zindex: 1005;
 $reveal-overlay-background: rgba($black, 0.45);
 
 // 28. Slider
@@ -546,4 +547,3 @@ $topbar-padding: 0.5rem;
 $topbar-background: $light-gray;
 $topbar-title-spacing: 1rem;
 $topbar-input-width: 200px;
-
